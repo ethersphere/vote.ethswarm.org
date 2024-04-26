@@ -1,0 +1,26 @@
+{
+    "name": "vote-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "verify": "ts-node src/scripts/verify.ts",
+        "db": "ts-node src/scripts/build-staker-database.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@koa/router": "^12.0.1",
+        "@snapshot-labs/snapshot.js": "^0.11.15",
+        "cafe-node-utility": "^1.1.0",
+        "cafe-utility": "^18.1.0",
+        "koa": "^2.15.2"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.15.0",
+        "@types/koa__router": "^12.0.4",
+        "ts-node": "^10.9.2"
+    }
+}
